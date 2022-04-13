@@ -1,0 +1,46 @@
+.card {
+    
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 15px;
+    background-color: white;
+
+}
+
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+
+.card li {
+    list-style: none;
+    padding-bottom: 10px;
+  }
+
+
+ .card_front {
+     display: flex;
+     position: relative;
+     height: 300px;
+     max-width: 100%;
+     /* max-width: 300px; */
+     align-items: center;
+     justify-content: center;
+     margin-bottom: calc(10px + 0.5vw);
+ }
+
+.art_image {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    border-radius: 5px;
+    object-fit: cover; 
+    /* max-width: 300px; */
+} 
+
+h3{
+    margin-bottom: 5px;
+}

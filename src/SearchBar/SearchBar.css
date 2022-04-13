@@ -1,0 +1,41 @@
+.SearchBar input{
+    width: 26rem;
+    padding: 0.5rem;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    
+}
+
+.SearchBar {
+    position: relative;
+    height: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.SearchBar::before{
+    content: '';
+    background-image: url('../met-background.jpg');
+    background-size: cover;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    
+}
+
+.SearchBar h1{
+    position: relative;
+    color: black;
+    margin-bottom: 1rem;
+    font-size: 2rem;
+}
+
+.SearchBar form{
+    position: relative;
+   
+}
