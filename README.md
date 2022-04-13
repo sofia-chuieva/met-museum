@@ -1,4 +1,7 @@
-# Getting Started with Create React App
+# Met Museum Gallery
+Basic React App that pulls data from an [api](https://metmuseum.github.io/) and displays artworks with information about them.
+
+## Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
