@@ -3,8 +3,7 @@ import './SearchBar.css'
 
 const Search = ({ getQuery }) => {
     const [text, setText] = useState('')
-  
-
+ 
     const getSearch = (e) => {
       e.preventDefault();
       getQuery(text);
@@ -13,7 +12,7 @@ const Search = ({ getQuery }) => {
     const updateSearch = (e) => {
       setText(e.target.value)
     }
-
+    
     return (
       <div className='SearchBar'>
         <h1>Explore the ART</h1>
