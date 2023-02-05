@@ -2,10 +2,7 @@ import React from 'react';
 import style from './CardItem.module.css'
 
 const CardItem = ({ item }) => {
-    
     return (
-       
-
         <div className={style.card}>
             <div className={style.card_inner}>
               <div className={style.card_front}>
@@ -20,9 +17,7 @@ const CardItem = ({ item }) => {
                   <li>Culture: {item.culture !== "" ? item.culture : "Unknown"}</li>
                   <li>Date: {item.objectDate}</li>
                 </ul>
-
               </div>
-
             </div>
         </div>
     )
