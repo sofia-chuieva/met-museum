@@ -4,15 +4,11 @@ import Search from './SearchBar/Search';
 import CardGrid from './CardGrid/CardGrid';
 
 const App = () => {
-
   const [items, setItems] = useState([]);
   const [query, setQuery] = useState('lion');
 
- 
   useEffect(() => {
-
     const getArt = async () => {
-  
       const objectsResponse = await fetch(`https://collectionapi.metmuseum.org/public/collection/v1/search?isHighlight=true&q=${query}`)
       let objectsResponseJson = await objectsResponse.json();
       let collection = await Promise.all(
@@ -24,16 +20,9 @@ const App = () => {
       setItems(collection)
       console.log(collection)
     }
-  
-    
-
     getArt();
   }, [query])  //only on query
   
-  
-  
-
-
   return (
     <div className="App">
       <Search getQuery={(query) => setQuery(query)}/>
