@@ -1,5 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 .form-container {
-    
   height: 500px;
   display: flex;
   flex-direction: column;
@@ -7,8 +7,6 @@
   justify-content: center;
   color: rgb(0, 0, 0);
   position: relative;
- 
-
 }
 
 .form-container::before{
@@ -22,19 +20,16 @@
   left: 0;
 }
 
-
 .form-container h1 {
 font-size: 2rem;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-
 
 .art-list {
 display: flex;
@@ -45,9 +40,6 @@ flex-wrap: wrap;
 .query {
 color:#D09D99;
 }
-
-
-
 
 .hero {
 margin: 50px;
